@@ -1,0 +1,110 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Volumes/MARK17/gametopiaEjercicio01
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54211
+Successfully changed project path to: /Volumes/MARK17/gametopiaEjercicio01
+/Volumes/MARK17/gametopiaEjercicio01
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 56.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.10f1 (297d780c91bc)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Volumes/MARK17/gametopiaEjercicio01/Assets
+GfxDevice: creating device client; threaded=0
+2021-09-22 18:52:37.614 Unity[20226:1358882] Color LCD preferred device: AMD Radeon Pro 460 (high power)
+2021-09-22 18:52:37.614 Unity[20226:1358882] Metal devices available: 2
+2021-09-22 18:52:37.614 Unity[20226:1358882] 0: AMD Radeon Pro 460 (high power)
+2021-09-22 18:52:37.614 Unity[20226:1358882] 1: Intel(R) HD Graphics 530 (low power)
+2021-09-22 18:52:37.615 Unity[20226:1358882] Using device AMD Radeon Pro 460 (high power)
+Initializing Metal device caps: AMD Radeon Pro 460
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56226
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.10f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000944 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 45.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.148 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002338 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.699 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1466 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.5 MB.
+System memory in use after: 161.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1921.
+Total: 3.940167 ms (FindLiveObjects: 0.292472 ms CreateObjectMapping: 0.073670 ms MarkObjects: 2.541200 ms  DeleteObjects: 1.031555 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/ChangeLevel.cs
+  artifactKey: Guid(153acbc7676b041738114ffb6ae7bf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeLevel.cs using Guid(153acbc7676b041738114ffb6ae7bf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdca4a8f01570f09dd8c885f28bdbea') in 0.437222 seconds
+  Import took 0.440839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.988201 seconds.
+  path: Assets/Scripts/RifleController.cs
+  artifactKey: Guid(bcf0512e2924348939e7c495ad31b8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RifleController.cs using Guid(bcf0512e2924348939e7c495ad31b8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cff27341d343ab37fa6b1dec4be354') in 0.020470 seconds
+  Import took 0.023596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026960 seconds.
+  path: Assets/Scripts/RifleController.cs
+  artifactKey: Guid(bcf0512e2924348939e7c495ad31b8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RifleController.cs using Guid(bcf0512e2924348939e7c495ad31b8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cff27341d343ab37fa6b1dec4be354') in 0.008558 seconds
+  Import took 0.012269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.150935 seconds.
+  path: Assets/Scripts/AutoDestroy.cs
+  artifactKey: Guid(1dc712ab58f6c47c6b3012113216de91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AutoDestroy.cs using Guid(1dc712ab58f6c47c6b3012113216de91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e951adac44aef1de908d828da6c37268') in 0.002104 seconds
+  Import took 0.005154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003920 seconds.
+  path: Assets/Scripts/AutoDestroy.cs
+  artifactKey: Guid(1dc712ab58f6c47c6b3012113216de91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AutoDestroy.cs using Guid(1dc712ab58f6c47c6b3012113216de91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e951adac44aef1de908d828da6c37268') in 0.002454 seconds
+  Import took 0.005818 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
